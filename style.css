@@ -20,6 +20,11 @@ section {
     background-attachment: fixed; 
 }
 
+.link-list li{
+    display: inline;
+    margin-right: 10px;
+}
+
 #initial .self-img {
     width: 300px;
     border-radius: 50%;
@@ -36,7 +41,8 @@ a:link, a:visited{
     background-color: lightgrey;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
+    margin-right: 10px;
     padding: 10px 20px;
 }
 
