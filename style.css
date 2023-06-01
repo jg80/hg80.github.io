@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#initial .self-img {
+    width: 300px;
+    border-radius: 50%;
+    border: 2px dotted black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+a:link, a:visited{
+    color: black;
+    background-color: lightgrey;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+a:hover{
+    background-color: white;
+}
+#initial h1 {
+    font-size: 3em;
+}
+#initial p{
+    font-size: 1.4em;
+}
+section h2 {
+    font-size: 2.5em;
+}
+
+#initial {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://pix11.com/wp-content/uploads/sites/25/2023/04/DAX23436_031820_FMCP-2-1.jpg?w=2400&h=1440&crop=1');
+}
+
+#projects {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+}
